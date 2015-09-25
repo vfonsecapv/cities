@@ -26,6 +26,10 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    
+    maven {
+        url "https://repository.mulesoft.org/nexus/content/groups/public/"
+    }
 }
 
 
